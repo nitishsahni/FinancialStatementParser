@@ -7,6 +7,6 @@
 # How it works
 - Load all your NSDL-eCAS statements in the NSDL/statements folder
 - Edit the main.py by passing in your legal name and PAN Card number as arguments in the Person class
-- Run main.py
+- Run main.py (It parses 4 NSDL-eCAS statements in ~ 1 second)
 
 Currently only parses MFs and Equity
