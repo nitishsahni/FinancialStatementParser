@@ -3,4 +3,5 @@
 *.pyo
 financial.db
 NSDLe-CAS*
-/auto_venv
+auto_venv
+.idea
