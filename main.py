@@ -5,8 +5,8 @@ import time
 
 if __name__ == '__main__':
     start_time = time.time()
-    #Your name below and PAN Card Number
-    p = Person('Full Name', 'PANCARDNO.')
+    # Your name and PAN Card Number go below
+    p = Person('Full Name', 'PANCARDNO')
     try:
         Read_NSDL(person=p)
     except Exception as e:
