@@ -1,7 +1,7 @@
 # DematManager
 - An NSDL-eCAS statement parser - automates the strenuous process of typing/writing it
 - Can parse multiple statements for equity, mutual funds
-- Stores all holdings data in an sqlite DB
+- Stores all holdings data in an SQLite DB
 - Use the parsed data to get a sense of financial allocations over time
 
 # How it works
