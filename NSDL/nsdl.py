@@ -12,10 +12,8 @@ class Read_NSDL(object):
         self.person = person
         self.name = person.name.upper()
         self.nsdls_path = self.get_nsdl_path()
-        # with concurrent.futures.ThreadPoolExecutor() as executor:
-        #        executor.map(self.processor, self.nsdls_path)
-        for p in self.nsdls_path:
-            self.processor(p)
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+                executor.map(self.processor, self.nsdls_path)
 
     def get_nsdl_path(self):
         files = os.listdir('NSDL/statements/')
